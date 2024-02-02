@@ -1,0 +1,42 @@
+/* post.module.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.post {
+  margin-bottom: 8px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #343a4e;
+  margin-left: 60px;
+}
+
+.post-html {
+  background-color: #ebfeff; /* Желтый фон для HTML */
+}
+
+.post-css {
+  background-color: #ebf5ff; /* Синий фон для CSS */
+}
+
+.post-js {
+  background-color: #e3fcec; /* Зеленый фон для JS */
+}
+
+.post-react {
+  background-color: #f5ebff; /* Фиолетовый фон для React */
+}
+
+/* post.css */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  height: 80px;
+  background: #b4b9d3;
+  border-radius: 10px;
+}
